@@ -1,0 +1,12 @@
+{
+  "$id": "balance.get",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "External game platform provider balance.get response protocol schema",
+  "type": "object",
+  "properties": {
+    "balance": { "$ref": "types#/definitions/balance"},
+    "currency": { "$ref": "types#/definitions/currency"}
+  },
+  "required": [ "balance", "currency" ],
+  "additionalProperties": false
+}

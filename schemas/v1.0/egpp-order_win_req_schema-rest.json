@@ -1,0 +1,15 @@
+{
+  "$id": "order.win",  
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "External game platform provider order.win request protocol schema",
+  "type": "object",
+  "properties": {
+    "amount": { "$ref": "types#/definitions/amount" },
+    "currency": { "$ref": "types#/definitions/currency" },
+    "game": { "$ref": "types#/definitions/game" },
+    "round": { "$ref": "types#/definitions/round" },
+    "externalId": { "$ref": "types#/definitions/externalId" }
+  },
+  "required": [ "amount", "currency", "game", "round", "externalId" ],
+  "additionalProperties": false
+}
