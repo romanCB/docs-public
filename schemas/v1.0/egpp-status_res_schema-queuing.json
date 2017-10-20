@@ -1,0 +1,22 @@
+{
+  "$id": "status",  
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "External game platform provider status response protocol schema",
+  "type": "object",
+  "properties": {
+    "code": { "$ref": "types#/definitions/statusCode" },
+    "error": { "$ref": "types#/definitions/statusError" },
+    "description": { "$ref": "types#/definitions/statusDescription" },
+    "parameters": {
+      "type": "array", 
+      "items": {
+        "type": "object",
+        "properties": {
+          
+        }
+      }
+    }
+  },
+  "required": [ "code" ],
+  "additionalProperties": false
+}

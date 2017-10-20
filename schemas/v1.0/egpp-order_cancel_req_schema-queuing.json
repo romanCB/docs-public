@@ -1,0 +1,15 @@
+{
+  "$id": "order.cancel",  
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "External game platform provider order.cancel request protocol schema",
+  "type": "object",
+  "properties": {
+    "amount": { "$ref": "types#/definitions/amount" },
+    "currency": { "$ref": "types#/definitions/currency" },
+    "game": { "$ref": "types#/definitions/game" },
+    "externalId": { "$ref": "types#/definitions/externalId" },
+    "playerId": { "$ref": "types#/definitions/playerId" }
+  },
+  "required": [ "amount", "currency", "game", "externalId", "playerId" ],
+  "additionalProperties": false
+}
