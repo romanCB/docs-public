@@ -34,4 +34,4 @@ This repository contains the existing External Game Plaftorm Provider Trading 1.
 
 ## License
 
-Copyright 2016 Candlebets Foundation
+Copyright 2016 - 2017 Candlebets Foundation
