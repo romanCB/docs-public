@@ -39,7 +39,7 @@
       "minimum": 1
     },
     "game": {
-      "enum": [ "wallstroulette", "wallstbaccarat", "weekendforex", "weekendbianry", "roulettefx" ]
+      "enum": [ "wallstroulette", "wallstbaccarat", "weekendforex", "weekendbinary", "roulettefx" ]
     }
   }
 }
