@@ -15,6 +15,20 @@ This repository contains the existing Authentication 1.0 specification.
 
 ## Tools and Libraries  
 
+# The Authorization API Specification
+
+
+## Current Version - 1.0
+
+The current version of the Authorization API specification is 1.0 - and you can find it [here](versions/authorization/1.0.md).
+
+### [Authorization API 1.0 Specification](versions/authorization/1.0.md)
+
+This repository contains the existing Authorization 1.0 specification.
+
+## Structure
+
+## Tools and Libraries
 
 # The External Game Platform Provider Trading API Specification
 
